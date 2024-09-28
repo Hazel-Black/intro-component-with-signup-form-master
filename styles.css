@@ -3,11 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  /*colors*/
+  --bg-color: #ff7979;
+  --ts-color: #ff7979;
+  --promo-button-color: #5e54a4;
+  --form-border-curser-color:#5e54a4;
+  --form-button-color: #38CC8B;
+  --main-text-color: #FFFFFF;
+  --form-text-active-color:#3D3B48;
+  --agreement-text-color:#BAB7D4;
+
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--form-text-color);
 }
+
